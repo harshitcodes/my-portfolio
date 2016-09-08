@@ -88,6 +88,7 @@ hr{
     font-size: 36px;
     margin-left: 50px;
 }
+
 #nav-drawer{
     padding-top : 5%;
     padding-left: 5%;
@@ -99,18 +100,24 @@ hr{
 #name{
     font-size: 75px;
 }
+
 #intro-text{
     font-size : 20px;
 }
+
 #intro{
     margin-top: 10px;
 }
+
 #nav-icon{
     font-size: 30px;
+    color: white;
+    position: fixed;
+    cursor:pointer;
 }
 
 #content{
-    font-family: Raleway;
+    font-family: raleway;
     width: 650px;
     margin-top: 100px;
     text-align: center;
@@ -119,7 +126,6 @@ hr{
 
 #content > h1{
     text-align: center;
-    font-family: Raleway;
     color: #fff;
     font-weight: normal;
     font-size: 75px;
@@ -134,13 +140,13 @@ hr{
     padding-top: 0.5em;
 }
 
-
 #resume{
     padding-top: 5%;
     padding-right: 5%;
     color: white;
     float: right;
 }
+
 #resume > a{
     color: white;
     text-decoration : none;
@@ -203,11 +209,9 @@ a, a:visited, a:hover, a:active {
     background-image: url(http://pierre.io/img/bg_blue.png);
     background-size: cover;
     padding-top: 5%;
-    height: auto;
     background-repeat: no-repeat;
     height: auto;
 }
-
 #skills{
     max-width: 600px;
     margin : 0 auto;
@@ -229,7 +233,6 @@ a, a:visited, a:hover, a:active {
     margin-bottom: 50px;
 }
 
-
 /*footer styling ==================================================================*/
 
 footer{
@@ -237,6 +240,9 @@ footer{
     background-color: #20586d;
     text-align: center;
     margin-top: 30px;
+}
+footer a{
+    color: #fff;
 }
 
 /*responsive ====================================================*/
