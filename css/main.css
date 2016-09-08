@@ -47,6 +47,10 @@ section{
 hr{
     border-color: #ffffff;
 }
+#h-logo{
+    width : 100px;
+    height: 100px;
+}
 
 /*side nav =========================================================*/
 
@@ -99,7 +103,7 @@ hr{
     font-size : 20px;
 }
 #intro{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #nav-icon{
     font-size: 30px;
@@ -156,7 +160,7 @@ nav{
 }
 
 #contact-details{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 #nav-links{
     list-style: none;
@@ -166,7 +170,7 @@ nav{
     text-align: center;
 }
 #navbar{
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 #nav-links > li >  a{
