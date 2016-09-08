@@ -7,6 +7,10 @@ Clone the repository : [https://github.com/harshitcodes/my-portfolio](https://gi
 ```
 git clone https://github.com/harshitcodes/my-portfolio
 ```
+cd into the my-portfolio directory or go to the working directory and move into my-portfolio
+```
+cd my-portfolio
+```
 Double click on test.html file
 And you have it running in your web browser.
 
